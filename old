@@ -1,0 +1,27 @@
+#This stuff isn't needed, but could be useful later on for the tool
+
+'''print("Your sentiment score is " + (str)(round(pos_score*100)) + "%")
+
+if (pos<pos_r): 
+  pos_problem = "low" #Means that positivity is too low
+  pos_rec = "write more positivitly."
+else: 
+  pos_problem = "high"
+  pos_rec = "write more criticaly."
+if (leg<leg_r):
+  leg_problem = "short"
+  leg_rec = "lengthen your tweet by around " + (str)(leg_r-leg) + " words."
+else: 
+  leg_problem = "high"
+  len_rec = "shorten your tweet by around " + (str)(abs(leg_r-leg)) + " words."
+
+if (pos_score<0.8):
+  print("Your post's positivity is too " + pos_problem + ", " + pos_rec)
+
+print("Your length score is " + (str)(round(leg_score*100)) + "%")
+
+if (leg_score<0.8):
+  print("Your post's length is too " + leg_problem + ", " + leg_rec)
+print("Your topic score 1 is " + (str)(round(top_score_1*100)) + "%")
+print("Your topic score 2 is " + (str)(round(top_score_2*100)) + "%")
+print("Your topic score 3 is " + (str)(round(top_score_3*100)) + "%")'''

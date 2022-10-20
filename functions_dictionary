@@ -1,0 +1,21 @@
+predict_text_classification_single_label_sample: 
+    Takes input data of G-cloud project, endpoint id, location, and text (content) in order to output a response showing the classification 
+
+setup
+    Takes a particular string and runs (using already set details from current project), outputting "response" which is clasification     
+
+tester 
+    Turns the G-cloud classification output into an array with 1 column for subreddit and 1 for confidence match 
+
+data  
+    Takes the classification array from tester and finds the total weighted occurance of each tag, returned as 3 lists (1 for each broadness level)
+    Line 157 onwards of data only does for i in category_1 and not category_2, etc, but idk if it should be so be careful it it works wrong
+
+init 
+    Runs setup, then tester, then data, returning the 3 weighted lists of tag occurance 
+
+tweet_finder
+    Takes the input of a tweet url and outputs a list of the users tweets and a list of their favorite counts for each 
+
+
+
